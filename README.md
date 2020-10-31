@@ -1,2 +1,3 @@
 # aws_great_learning_course
- # Not completed, Need to imporve testing and find time to complete it quickly
+ Chapter 1: Introduction to AWS
+  >> 1 hour video completed in 40 minutes with practical
