@@ -22,3 +22,11 @@ resulting set of resources that CloudFormation builds is called a Stack.
 
 
 CloudFormation Template Structure(YAML)
+```
+AWSTemplateFormatVersion: "2010-08-02"
+Descript: "Create an EC2 instance"
+Metadata: 
+    Instances:
+        Description: "Web Server Instace"
+Parameters: 
+    EnvTpe:
