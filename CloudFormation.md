@@ -46,3 +46,11 @@ Transform: #include snippets of code outside the main template
     Parameters: 
         Location: 's3://s3bucketname.yaml'
 Resources: # the AWS resources you are deployment
+    EC2Instace: 
+        Type: AWS::EC2::Instance
+        Properties:
+        Outputs:
+    InstaceID:
+        Description: The Instace ID
+        Value: !Ref EC2Instance
+            InstanceType: t2.micro
