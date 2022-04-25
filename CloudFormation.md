@@ -38,3 +38,11 @@ Parameters:
 Conditions: 
     CreateProdResources: !Equals [!Ref EnvType, prod]
     Mappings:
+    RegionMap:
+        eu-west-1:
+            "ami: "ami-obakdsf"
+Transform: #include snippets of code outside the main template
+    Name: 'AWS::Include'
+    Parameters: 
+        Location: 's3://s3bucketname.yaml'
+Resources: # the AWS resources you are deployment
