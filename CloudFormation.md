@@ -54,3 +54,11 @@ Resources: # the AWS resources you are deployment
         Description: The Instace ID
         Value: !Ref EC2Instance
             InstanceType: t2.micro
+            ImageId: ami-a34l3skdjf1
+    Outputs:
+        InstancID:
+            Description: THeinstace ID
+            Value: !Ref EC2Instace
+            ImageId: ami-aldskf39    
+
+```
