@@ -30,3 +30,11 @@ Metadata:
         Description: "Web Server Instace"
 Parameters: 
     EnvTpe:
+        Description: "environment type"
+        Type: String
+        AllowedValues: 
+            - prod
+            - test
+Conditions: 
+    CreateProdResources: !Equals [!Ref EnvType, prod]
+    Mappings:
