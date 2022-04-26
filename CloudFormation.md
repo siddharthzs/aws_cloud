@@ -62,3 +62,5 @@ Resources: # the AWS resources you are deployment
             ImageId: ami-aldskf39    
 
 ```
+
+The Resource section is Mandatory. The Transform section is used to reference additional code stored in S3, allowing for code re-use.
