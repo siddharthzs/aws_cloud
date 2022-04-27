@@ -14,3 +14,11 @@ def take_closest(myList, myNumber):
     """
     pos = bisect_left(myList, myNumber)
     if pos == 0:
+        return myList[0]
+    if pos == len(myList):
+        return myList[-1]
+    before = myList[pos - 1]
+    after = myList[pos]
+    if after - myNumber < myNumber - before:
+        return after
+    else:
