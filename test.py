@@ -30,3 +30,11 @@ def solve(powerArr, desired_result, n):
     num2 = powerArr[1]
     print(powerArr)
     for i in range(n):
+        t = take_closest(powerArr,abs(powerArr[i] - desired_result))
+        print(t, powerArr[i], desired_result )
+        if(desired_result - abs(t - powerArr[i]) < desired_result - abs(num2 - num1)):
+            num1 = powerArr[i]
+            num2 = t
+    
+    return num1 + num2
+
