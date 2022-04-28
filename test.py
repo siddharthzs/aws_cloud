@@ -38,3 +38,11 @@ def solve(powerArr, desired_result, n):
     
     return num1 + num2
 
+# res = solve([2,1,4,2,3,2,2,6], 5,8)
+# print(res)
+
+
+
+
+
+
