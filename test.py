@@ -22,3 +22,11 @@ def take_closest(myList, myNumber):
     if after - myNumber < myNumber - before:
         return after
     else:
+        return before
+
+def solve(powerArr, desired_result, n):
+    powerArr.sort()
+    num1 = powerArr[0]
+    num2 = powerArr[1]
+    print(powerArr)
+    for i in range(n):
