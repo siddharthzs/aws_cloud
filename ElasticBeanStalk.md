@@ -28,3 +28,13 @@ Fastest and simplest way to deploy your application in AWS.
 * YAML or JSON : These are files written in YAML or JSON format.
 * Constraints : The file must have .config extension and be inside a folder called .ebextensions in the top-level directory of your application source code bundle.
 
+### For Amazon Linux 2
+* use Buildfile, Procfile, and platform hooks whenever possible to configure and run custom code on your environment instances during instance provisoning.
+* Buildfile : For commands that run for short periods and then exit upon task compeltion (eg., running a shell script).Create your Buildfile in root directory. Format: <process_name>: <command> ==> "make : ./build.sh"
+* Procfile : Long-running application processes (eg, commands to start and run your application). Elastic beanstalk expects processes defined in the procfile to run continously. It monitors and restarts any processes that terminate.
+Create Procfile in root directory. Format: <proces_name> : <commnad>
+==> web : bin/myserver 
+* Platform Hooks: Custome scripts or executable files that you would like Elastic BeanStalk to run at a chosen stage of the EC2 provisioning process. Stored in dedicated directories in your application source code. 
+* **.platform/hooks/prebuild** : Files that you want Elastic BeanStalk to run before it builds, sets up, and configures the application and web server.
+* **.platform/hooks/predeploy** : Files that you want to run afer it set up and configures the application and web server but before it deploys them to the final runtime location.
+* **.platform/hooks/postdeploys** : Files that run after Elastic Beanstalk deploys the application.
