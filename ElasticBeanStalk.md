@@ -48,3 +48,13 @@ Option1: RDS Inside the Elastic BeanStalk
 * If you terminate the environment, the database will also be terminated.
 * It is a good option for Deve and Test deployments, not so good for Prod.
 
+Option2: Launch RDS Outside of Elastic BeanStalk
+* Use the RDS console or AWS CLI to create your RDS database.
+* It allows you to tear down your application environment without affecting the database instance.
+* This is the preferred approach for Production Systems.
+* An additional Security Group must be added to your environments Auto Scaling group.
+* You will need to provide connection string information to your application servers using Elastic BeanStalk environment properties.
+
+## Migrating Applications to Elatic BeanStalk
+
+1) Windows Web Application Migration Assistant 
