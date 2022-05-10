@@ -38,3 +38,13 @@ function Nsort(A){
         }
         console.log(A[i]);
     }
+
+    return -1;
+
+}
+
+
+ function  wave(A){
+    console.log(A);
+    A.sort();
+    console.log(A);
