@@ -48,3 +48,13 @@ function Nsort(A){
     console.log(A);
     A.sort();
     console.log(A);
+    A.sort((a,b)=> a-b);
+    console.log(A)
+    A.sort((a,b)=> b-a);
+    console.log(A)
+
+}
+
+
+ function hotel (A, B, C){
+    allBooking = [];
