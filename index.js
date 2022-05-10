@@ -88,3 +88,13 @@ function Nsort(A){
         return 0;
     return 1;
 
+
+}
+
+
+// r = flip("010");
+// console.log(r);
+
+// s = wave([2,3,4,11])
+// console.log(s)
+
