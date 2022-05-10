@@ -28,3 +28,13 @@ function Nsort(A){
     A = A.sort((a,b)=>{ if(+a < +b) return -1; else return 1;});
     let start = 0;
     let end = A.length-1;
+    console.log(A.length);
+    for(let i = 0; i < A.length; i++){
+        if(A[i] == A.length-i-1 && A[i] != 0)
+        {
+            console.log(A[i], A.length-i-1);
+            return 1;
+
+        }
+        console.log(A[i]);
+    }
