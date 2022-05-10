@@ -68,3 +68,13 @@ function Nsort(A){
         if(a[0] == b[0]){
             if(a[1] == 'D')
                 return -1;
+            return 1;
+        }
+        return a[0] - b[0];
+    });
+    console.log(allBooking);
+
+    let maxBook = 0;
+    let curBook = 0;
+    for(let i = 0; i < allBooking.length; i++){
+        if(allBooking[i][1] == 'D' && curBook > 0)
