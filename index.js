@@ -78,3 +78,13 @@ function Nsort(A){
     let curBook = 0;
     for(let i = 0; i < allBooking.length; i++){
         if(allBooking[i][1] == 'D' && curBook > 0)
+            curBook--;
+        else if(allBooking[i][1] == 'A')
+            curBook++;
+        maxBook = Math.max(curBook, maxBook);
+    }
+
+    if(maxBook > C)
+        return 0;
+    return 1;
+
