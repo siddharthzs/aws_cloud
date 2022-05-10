@@ -18,3 +18,13 @@ function flip(arr) {
     }
 
     jpos++;
+  }
+
+  return res;
+}
+
+
+function Nsort(A){
+    A = A.sort((a,b)=>{ if(+a < +b) return -1; else return 1;});
+    let start = 0;
+    let end = A.length-1;
