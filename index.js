@@ -58,3 +58,13 @@ function Nsort(A){
 
  function hotel (A, B, C){
     allBooking = [];
+    for(let i = 0; i < A.length; i++)
+        allBooking.push([A[i],'A']);
+
+    for(let i = 0; i < B.length; i++)
+        allBooking.push([B[i],'D']);
+
+    allBooking.sort((a,b)=>{
+        if(a[0] == b[0]){
+            if(a[1] == 'D')
+                return -1;
