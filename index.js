@@ -98,3 +98,4 @@ function Nsort(A){
 // s = wave([2,3,4,11])
 // console.log(s)
 
+h = hotel([ 1, 2, 3 ], [2,3,4],1);
