@@ -8,3 +8,13 @@ Continous Integration Workflow
 * Shared Code Repository
 * Automated Build
 * Automated Test
+
+
+
+
+### CodeCommit
+Source control services enabling teams to collaborate on code, html pages, scripts, images and binaries
+
+### CodeBuild
+Compiles Source code, runs tests and produces packages that are ready to deploy.
+
