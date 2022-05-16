@@ -38,3 +38,13 @@ Lifecycle event Hooks are run in a specific order known as the Run Order.
 
 Phase1: De-register instaces from a Load Balancer.
 Phase2: The realnuts & bolts of the application deployment.
+Phase3: Re-register instances with the Load Balancer.
+```
+#### LifeCycleHooks
+* BeforeBlockTraffic: Tasks you want to run on instances before they are de-registered from a Load Balancer
+* BlockTraffic: De-register instances from a Load Balancer
+* AfterBlockTraffic: Tasks you want to run on instances after they are de-registered from a Load Balancer
+(Run Order for an in-place deployment)
+* ApplicationStop: Gracefuly stop the application.
+* DownloadBundle : CodeDeploy agent copies the application revision files to a temporary location
+* BeforeInstall: Pre-installation scripts, e.g. backing up the current version, decrypting files.
