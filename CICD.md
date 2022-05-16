@@ -58,3 +58,13 @@ Phase3: Re-register instances with the Load Balancer.
 * AfterAllowTraffic: Tasks you want to run on instances after they are registered with a Load Balancer.
 
 
+### CodePipeline
+End-to-end solution, build, test and deploy your application every time there is a code change.
+
+A fully managed CI/CD Service. Orchestrates Build,Test andDeployment.
+
+
+
+
+## Exam Tips
+* Continous Integation : CodeCommit
