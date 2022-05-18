@@ -68,3 +68,7 @@ A fully managed CI/CD Service. Orchestrates Build,Test andDeployment.
 
 ## Exam Tips
 * Continous Integation : CodeCommit
+* Continous Delivery : CodeBuild and CodeDeploy
+* Continous Deployment : CodePipeline
+
+https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/practicing-continuous-integration-continuous-delivery.pdf
