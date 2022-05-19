@@ -18,3 +18,13 @@ Support Layer 4 load balancing for applications that rely purely on the TCP prot
 Allow you to load balance workloads for third-party virtual appliances running in AWS, such as Virtual applications purchased using the AWS Marketplace
 Virtual firewalls from companies like Fortinet, Palo Alto, Juniper, Cisco
 IDS/IPS system from companies like CheckPoint, Trend Micro, etc.
+
+
+
+### Common Load Balance Errors
+* Error 504 Gateway Timeout
+the target failed to respond.
+The Elastic Load Balancer could not establish a connection to the target, e.g., the web server, database, Lambda funciton.
+Your application is having issues.
+Identify where the application is failing and fix the problem.
+
