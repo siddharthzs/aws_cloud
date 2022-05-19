@@ -8,3 +8,13 @@ It can use HTTP request header to determine where to send each request header.
 ### Network Load Balance -> TCP and high performance
 Used for load balancing TCP traffic where extreme performance is required. Operates at Layer 4(Transport Layer).
 Capable of handling millions of requests per second while maintaining ultra-low latencies.
+As it is high performance, it is also the most expensive option.
+### Classirc Load Balance -> Both HTTP and TCP
+Legacy Option
+Support Layer 7 specific features, such as X-Forwarded-For headers(to identify originating request IP address) and sticky sessions(allows keep sending requests which originates from same session on to the same web server making the session sticky).
+Support Layer 4 load balancing for applications that rely purely on the TCP protocol.
+
+### GateWay Load Balancer -> 
+Allow you to load balance workloads for third-party virtual appliances running in AWS, such as Virtual applications purchased using the AWS Marketplace
+Virtual firewalls from companies like Fortinet, Palo Alto, Juniper, Cisco
+IDS/IPS system from companies like CheckPoint, Trend Micro, etc.
