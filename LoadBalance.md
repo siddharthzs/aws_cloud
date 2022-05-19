@@ -28,3 +28,13 @@ The Elastic Load Balancer could not establish a connection to the target, e.g., 
 Your application is having issues.
 Identify where the application is failing and fix the problem.
 
+
+## Exam Tips
+
+#### Application Load Balance 
+Operates at Layer 7 Application layer, decides where to send which HTTP Request to which server based on Header request
+#### Netowork Load Balancer
+Very High Performing and Costly. Operates at Layer 4 Network Layer.
+Used for load balancing TCP Traffic 
+#### Classic Load Balancer
+The legacy option that supports both HTTP/HTTPS and TCP
