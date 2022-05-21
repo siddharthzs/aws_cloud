@@ -38,3 +38,10 @@ Very High Performing and Costly. Operates at Layer 4 Network Layer.
 Used for load balancing TCP Traffic 
 #### Classic Load Balancer
 The legacy option that supports both HTTP/HTTPS and TCP
+#### Gateway Load Balancer
+Used in internal or Third-Party virtual applications, like firewalls, Intrusion Detection and Preventions Systems.
+#### X-Forwarded-For
+Used to get Ip address of the user hoe send the request, could be found in parameter X-Forwared-For header
+
+
+
