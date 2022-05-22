@@ -28,3 +28,13 @@ Cost Sensitive
 Dedicared Hosts 
     Compliance: Regulatory requirements that may not support multi-tenant virtualization 
     Licensing:Great for licensing which does not support multi-tenancy or cloud deployments.
+    On-Demand: Can be purchased on-demand
+    Reserved: Can be purchased as a reservation for up to 70% off the on-demand price.
+
+### Saving Plans
+    Save up to 73%
+    Commit to one or Three Years
+    Super Flexible
+
+    AWS Pricing Calculator
+    
