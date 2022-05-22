@@ -38,3 +38,13 @@ Dedicared Hosts
 
     AWS Pricing Calculator
     
+
+
+## EC2 Instance Type
+Hardware -> the instance type determines the hardware of the host computer used for your instance
+
+Capabilities-> Each instance type offers different compute, memory, and storage capabilites are grouped in instance families
+
+#### Micro Instance ::->
+#### General Purpose ::->
+#### Compute Optimized ::->
