@@ -18,3 +18,13 @@ Reserved--> Reserved capacity for one or three years. Up to 72% discounton the h
     Sheduled Rls (Launch within the time window you define, day, week or month)
 
 
+Spot --> Purchase unused capacity at discout of up to 90%. Price fluctuate with supply and demand.
+Dedicated-> A physical EC2 server dedicated for your use. The most expensive option.
+
+Flexible : Application the have flxible start and end time
+Urgent Capacity : Image Processing
+Cost Sensitive
+
+Dedicared Hosts 
+    Compliance: Regulatory requirements that may not support multi-tenant virtualization 
+    Licensing:Great for licensing which does not support multi-tenancy or cloud deployments.
