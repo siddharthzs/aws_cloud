@@ -68,3 +68,13 @@ Install Application
 * Production Workloads -> Designed for mission critical workloads.
 * Highly Available -> Automatically replicated within a single availability zone to protect against hardware failures.
 * Scalable -> Dynamically increase capacity and chnage the type volumen with no downtime or performance impact to your live system.
+
+#### Type of EBS
+* General Purpose SSD (gp2)
+3 IOPS per GiB, up to a maximum of 16000 IOPS per volume. gp2 volumes smaller than 1TB can burst up to 3000 IOPS. Good for boot volumnes or development and test applications which are not latency sensitive
+* General Purpose SSD (gp3)
+Baseline of 3000 IOPS for any volume size(1-16GB)
+Delivering up to 16000 IOPS
+20% cheaper than gp2!
+Like gp2, they are good for boot volumes or development and test applications which are not latency sensitive.
+* Provisioned IOPS SSD (io1)
