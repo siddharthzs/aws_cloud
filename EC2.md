@@ -58,3 +58,13 @@ Capabilities-> Each instance type offers different compute, memory, and storage 
 Elastic Block Store
 #### Whare are EBS Volume
 Storage volumes that you can attach to your EC2 instances.
+
+Use them the same way you would use any system disk. Create a file system. Run a database.
+Run an Operatin System
+Store Data
+Install Application 
+
+#### Mission Critical
+* Production Workloads -> Designed for mission critical workloads.
+* Highly Available -> Automatically replicated within a single availability zone to protect against hardware failures.
+* Scalable -> Dynamically increase capacity and chnage the type volumen with no downtime or performance impact to your live system.
