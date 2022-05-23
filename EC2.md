@@ -48,3 +48,13 @@ Capabilities-> Each instance type offers different compute, memory, and storage 
 #### Micro Instance ::->
 #### General Purpose ::->
 #### Compute Optimized ::->
+#### FPGA instance ::->
+#### GPU instance ::->
+#### Machine Learning ASIC Instance ::->
+#### Memory optimized ::->
+#### Storage optimized ::->
+
+## EBS Volumes
+Elastic Block Store
+#### Whare are EBS Volume
+Storage volumes that you can attach to your EC2 instances.
