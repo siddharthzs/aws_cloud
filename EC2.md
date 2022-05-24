@@ -78,3 +78,13 @@ Delivering up to 16000 IOPS
 20% cheaper than gp2!
 Like gp2, they are good for boot volumes or development and test applications which are not latency sensitive.
 * Provisioned IOPS SSD (io1)
+Up to 64,000 IOPS per volume.. 50 IOPS per GiB.
+User if you neet more than 16,000 IOPS.
+Designed for I/O intensive applications, large database, and latency-sensitive workloads.
+
+* Provisioned IOPS SSD(io2)
+500 IOPS per GiB.
+Up to 64,000 IOPS.
+99.999% durability instead of up to 99.9%
+I/O intensive apps, large database, and latency-sensitive workloads. Applications which need high levels of durability.
+High durability and more IOPS
