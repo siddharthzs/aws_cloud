@@ -98,3 +98,13 @@ Uses EBS Block Express architecture.
 Up to 64 TB, 256,000 IOPS per volume.
 99.9999% durability
 
+Great for the largest, most critical, high-performance applications like SAP HANA, Oracle, Ms-Sql server, and IBM DB2.
+
+* Throughput Optimized HDD (st1)
+Low-cost HDD volume
+Baseline throughput of 40 MB/s per TB.
+Ability to burst up to 250 MB/s per TB.
+Maximum throughput of 500 MB/s per volume.
+Frequently-accessed, throughput-intensive workloads. Big Data, data warehouses, ETL, and log processing. A cost effective way to store mountains of data. Cannot be a boot volume.
+
+* Cold HDD (sc1)
