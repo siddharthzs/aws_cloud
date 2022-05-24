@@ -88,3 +88,13 @@ Up to 64,000 IOPS.
 99.999% durability instead of up to 99.9%
 I/O intensive apps, large database, and latency-sensitive workloads. Applications which need high levels of durability.
 High durability and more IOPS
+io2 price is same as io1
+
+* Provisioned IOPS SSD io2 Block Express
+SAN(Storage Area Network) in the cloud. 
+Highest performance, sub-millisecond latency.
+Uses EBS Block Express architecture.
+4x throughput, IOPS, and capacity of regular io2 volumes.
+Up to 64 TB, 256,000 IOPS per volume.
+99.9999% durability
+
