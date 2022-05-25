@@ -158,3 +158,12 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html
 * EBS Volumes -> 
 * Encrypted Snapshots : If you can create an EBS volume from an encrypted snapshot, then you well get an encrypted volume.
 * Unencrypted snapshots : If the snapshot is unencrypted, then any volume you create from it is also going to be unencrypted.
+
+
+
+
+'OnDemandBackup'
+'ClassroomOnDemandBackup','ClassroomBackup'
+'SharePointBackup','SharePointOnDemandBackup','TeamsBackup','TeamsOnDemandBackup'
+
+
