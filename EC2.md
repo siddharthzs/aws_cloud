@@ -108,3 +108,13 @@ Maximum throughput of 500 MB/s per volume.
 Frequently-accessed, throughput-intensive workloads. Big Data, data warehouses, ETL, and log processing. A cost effective way to store mountains of data. Cannot be a boot volume.
 
 * Cold HDD (sc1)
+Lowest Cost Option
+Baseline throughput of 12MB/s per TB.
+Ability to brust up to 80 MB/s per TB.
+Max throughput of 250 MB/s per volume.
+A good choice for colder data requiring fewer scans per day.
+Good for applications that need the lowest cost and performance is not a factor.
+Cannot be a boot volume.
+
+#### IOPS
+* Measures the number of read and write operation per second
