@@ -118,3 +118,13 @@ Cannot be a boot volume.
 
 #### IOPS
 * Measures the number of read and write operation per second
+* Important metric for quick transactions, low latency apps, transactional workloads.
+* ability to action reads and writes very quickly
+* Choose provisioned IOPS SSD (io1 or io2)
+
+#### Throughput
+* Measure the number of bits read or written per seconds.
+* Important metric for large datasets, large I/O sizes, complex queries.
+* The ability to deal with large datasets.
+* Choose throughput Optimized HDD (st1). 
+
