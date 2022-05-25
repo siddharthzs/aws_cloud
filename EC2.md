@@ -128,3 +128,13 @@ Cannot be a boot volume.
 * The ability to deal with large datasets.
 * Choose throughput Optimized HDD (st1). 
 
+
+
+## Exam Tips
+* Pay Only For What You Use
+* No Wasted Capacity
+* Instance Type Determines the hardware of the host compute
+* Each insance type offer different compute, memory, and storage capabiities. They are grouped in instance families.
+* Select an instance type base on the requirements of your applications
+* Elastic Block Store: SSD Volumes
+* Highly available and scalable storage volumes you can attach to an EC2 instance.
