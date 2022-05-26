@@ -8,3 +8,13 @@ With KMS, it is simple to encrypt your data with encryption keys that you manage
 consider KMS
 
 * EBS
+* EFS
+* CloudTrail
+* Developer Tools
+
+### CMK Customer Master Key
+Encrypt/ Decrypt data up to 4KB.
+Used to generate/ encrypt/ decrypt the data key.
+and the Data Key is used to encrypt/ decrypt your data.
+This is called as Envelope Encryption
+
