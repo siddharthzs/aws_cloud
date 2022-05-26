@@ -138,3 +138,13 @@ Cannot be a boot volume.
 * Select an instance type base on the requirements of your applications
 * Elastic Block Store: SSD Volumes
 * Highly available and scalable storage volumes you can attach to an EC2 instance.
+* gp2 -> General Purpose SSD, suitale for boot disks and general applications 3IOPS per GiB. Up to 16,000 IOPS per volume. Up to 99.9% durability.
+* gp3 -> Latest Generation General Purpose SSD, suitable for boot disks and general application. 3000 IOPS for all volumes. Up to 16,000 IOPS per volume and Up to 99.99% durability. 20% cheaper than gp2
+
+* io1 -> Provisioned IOPS SSD, (for finance and trading) suitable for OLTP and latency-sensitive applications. 50 IOPS/GiB. Up to 64k IOPS per volume. 
+High performance and most expensive.
+Up to 99.9% durability.
+* io2 -> Latest Generation Provisoned IOPS SSD,(for finance and trading) suitable for OLTP and latency-sensitive applications. 500 IOPS/GiB. Up to 64k IOPS per volume. 
+High performance and most expensive.
+Up to 99.9% durability.
+* io2 Block Express -> Provisioned IOPS SSD, (for finance and trading) suitable for largest, most critical, high-performace application: Ms-Sql servier, Oracle. Up to 64 TB, 256k IOPS per volume. 
