@@ -28,3 +28,13 @@ CMK cannot be exported outside of KMS.
 
 ### Envelope Encryption 
 Encrypting the key that encrypts our data.
+The CMK is used to encrypt the data key ( or envelope key).
+The data key encrypts our data.
+Used for encrypting anything over 4KB.
+Using evvelope encryption avoids sending all your data into KMS over the network
+
+## Exam Tips
+* AWS-Managed CMK : AWS-provided and AWS-managed CMK. Used on your behalf with the AWS services interagated with KMS.
+* Customer-Managed CMK : You create, own and manage yourself.
+*Data Key: Encryption keys that you can use to encrypt data, including large amount of data.
+
