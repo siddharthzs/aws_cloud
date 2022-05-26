@@ -18,3 +18,13 @@ Used to generate/ encrypt/ decrypt the data key.
 and the Data Key is used to encrypt/ decrypt your data.
 This is called as Envelope Encryption
 
+CMK cannot be exported outside of KMS.
+
+* SetUp CMK : Alias, Description, Key Material
+* Key Administrative Permissions: IAM users and roles that can administer the key through the KMS API.
+(Users, Roles, Admin Permissions) 
+* Key Usage Permissions: IAM users and roles that can use the key to encrypt and decrypt data.
+
+
+### Envelope Encryption 
+Encrypting the key that encrypts our data.
