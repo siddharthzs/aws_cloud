@@ -148,3 +148,13 @@ Up to 99.9% durability.
 High performance and most expensive.
 Up to 99.9% durability.
 * io2 Block Express -> Provisioned IOPS SSD, (for finance and trading) suitable for largest, most critical, high-performace application: Ms-Sql servier, Oracle. Up to 64 TB, 256k IOPS per volume. 
+High performance and most expensive.
+Up to 99.9% durability. (SAN in cloud )
+* st1 -> Througput Optimized HDD, suitable for Big Data, data warehouses, ETL. Max throughput is 500 MB/s per volume. Cannot be a boot volume. Up to 99.9% durability
+* sc1 -> Cold HDD, Max throughout of 250 MB/s per volume. Less-frequently-accessed data. Cannot be a boot volume. Lowest cost. Upto 99.9% durability.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html
+
+* EBS Volumes -> 
+* Encrypted Snapshots : If you can create an EBS volume from an encrypted snapshot, then you well get an encrypted volume.
+* Unencrypted snapshots : If the snapshot is unencrypted, then any volume you create from it is also going to be unencrypted.
