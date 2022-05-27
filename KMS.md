@@ -38,3 +38,11 @@ Using evvelope encryption avoids sending all your data into KMS over the network
 * Customer-Managed CMK : You create, own and manage yourself.
 *Data Key: Encryption keys that you can use to encrypt data, including large amount of data.
 
+### KMS API calls
+aws kms encrpt
+aws kms decrypt
+aws kms generate-data-key
+aws kms re-encrypt
+aws kms enable-key-rotation
+
+
