@@ -8,3 +8,13 @@ Data generated continouly by thousands of data sources, which typically send in 
 * Financial Transactions
 * Stockprices
 * Game data
+* Social media feeds
+* location tracking data
+* iot sensors
+* clickstream data
+* log files
+
+
+## Core Services Under Kinesis
+* Kinesis Streams : Streams data and video to allow you to build custom applications that process data in real-time.
+Data Streams and Video Streams.
