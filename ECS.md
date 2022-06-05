@@ -8,3 +8,8 @@ Similar to Kubernetes, but with deep integration with AWS services e.g. IAM, VPC
 * Clusters of VM, ECS will run your containers on clusters of virtual machines.
 * Fargate for Serverless, Use Fargate for Serverless containers and you don't need to worry about the underlying EC2 instaces!
 * EC2 For More Control, if you want to control the installation, configuration and management of your compute environment.
+
+
+## Elastic Container Registry
+Registry for container images
+ECS collects the docker images from ECR
