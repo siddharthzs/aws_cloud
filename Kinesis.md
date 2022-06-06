@@ -18,3 +18,13 @@ Data generated continouly by thousands of data sources, which typically send in 
 ## Core Services Under Kinesis
 * Kinesis Streams : Streams data and video to allow you to build custom applications that process data in real-time.
 Data Streams and Video Streams.
+* Kinesis Data Firehose : Capture, transform, load data streams into AWS data stores to enable near-real-time analytics with BI tools.
+* Kinesis Data Analytics
+Analyze, query and transform streamed data in real-time using standard SQL. Store the results in an AWS data store.
+
+### Kinesis Shards
+* Kinesis streams are made up of shards.
+* Each shard is a sequence of one or more data records and provides a fixed unit of capacity
+* 5 reads per second, The max total read rate is 2mb per second.
+* 1000 writes per second, max total write rate is 1mb per second.
+
