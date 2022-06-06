@@ -28,3 +28,13 @@ Analyze, query and transform streamed data in real-time using standard SQL. Stor
 * 5 reads per second, The max total read rate is 2mb per second.
 * 1000 writes per second, max total write rate is 1mb per second.
 
+### kinesis Shards vs Consumers
+* A kinesis data stream is a set of shards.
+* A shard is a sequence of data records in a stream, each data record has a unique sequence number.
+
+Consumers
+* Kinesis client library runs on the customer instances.
+* Tracks the number of shards in your stream.
+* Discovers new shards when you reshard.
+* The KCL ensures that for every shard there is a record processor.
+* Manages the number of record processors relative to the number of shards & consumers
