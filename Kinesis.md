@@ -38,3 +38,12 @@ Consumers
 * Discovers new shards when you reshard.
 * The KCL ensures that for every shard there is a record processor.
 * Manages the number of record processors relative to the number of shards & consumers
+* If you have only one consumer, the KCL will create all the record processors on a single consumer.
+* If you have two consumers it will load balance and create half the processors on one instance and half on another.
+
+What about scaling out the consumers?
+* with KCL, generally you should ensure that the nubmer of instances doesn not exceed the number of shards(except for failure or standby purposes).
+* You never need multiple instances to handle the processsing load of one shard.
+* Howeer, one worker can process multiple shards.
+* Use an Auto Scaling group, and base scaling decisions on CPU loads on your consumers.
+* KCL adds another reord processor on each consumer
