@@ -18,3 +18,12 @@ OAI allows us to restrict access to the contents of our bucket, so that all user
 * GET, HEAD <-- Read only -->
 * GET, HEAD, OPTIONS <-- Read only -->
 * GET,HEAD, OPTIONS, PUT, POST, PATCH, DELETE <--Write and Read-->
+
+# CloudFront
+* Optimized to work with other amazon web services
+* Integreated with aws services like s3, ec2, elb and route 53.
+* it also works seamlessly with an non-aws origin server, which stores the original, definitive versions of your files.
+* Objects are cached for a period of time which is their Time To Live. (defualt 1 day) If you clear before the TTL, then you will be charged for it
+
+
+# CloudFront & S3 Transfer Acceleration
