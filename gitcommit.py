@@ -38,3 +38,12 @@ for content in fileContent:
             x = 3
     i+=1
 
+OutFile.close()
+InFile.close()
+
+
+    
+
+
+# set /p txt=Your Text Content; 
+# echo %txt% > "Location\textfile.txt"
