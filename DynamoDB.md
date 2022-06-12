@@ -18,3 +18,13 @@ Use Cases: A great fit for mobile, web, gaming, ad teach, IoT, and many other ap
 
 * Composite Key : Partition Key + Sort Key
 A item in the table may have the same partition key, but they must have a different sort key
+All items with the same partition key are stored together and then sorted according to the sort key value.
+
+
+### Query / Scan
+#### Query 
+* A query finds items in a table based on the primay key attribute and a distinct value to search for.
+* Use an Optional sort key name and value to refine the results.
+* Results are always sorted by the sort key
+* You can reverse the order by setting the **ScanIndexForward** parameter to false.
+* By default, queries are eventually consistent.
