@@ -38,3 +38,13 @@ Query is More Efficient than a Scan
 As the table grows, the scan operation takes longer.
 A scan operation on a large table can use upthe provisioned throughput for a large table in just a single operation.
 #### Improving Performance
+* set a smaller page size
+* running a larger number of smaller operations wil allow other requests to succeed without throttling.
+* scan process data sequrntially, returning 1mb increments before moving on to retrive the next 1mb of data.
+* scans one partition at a time.
+*
+
+
+### Provisioned Throughput(measured in capacity units)
+#### Read Capacity Units
+1 x Read capacity unit = 1 x strongly consistent read of 4kb per second.
