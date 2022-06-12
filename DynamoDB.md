@@ -28,3 +28,13 @@ All items with the same partition key are stored together and then sorted accord
 * Results are always sorted by the sort key
 * You can reverse the order by setting the **ScanIndexForward** parameter to false.
 * By default, queries are eventually consistent.
+
+#### Scan
+* A scan operation examines every item in the table. By default, it returns all data attributes.
+* User ProjectionExpression parameter to refine the scan to only return attribute you want.
+
+
+Query is More Efficient than a Scan
+As the table grows, the scan operation takes longer.
+A scan operation on a large table can use upthe provisioned throughput for a large table in just a single operation.
+#### Improving Performance
