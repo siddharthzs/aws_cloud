@@ -68,3 +68,13 @@ DynamoDb instanly scales up and down based on the activity of your application.
 It is a fully-managed, clustered in-memory cache for DynamoDB.
 Delivers up to a 10x read performance improvement. Microsecond performance for millions of requests per second.
 * DAX is write-thorugh caching service.
+* Reduces the read load on DynamoDB tables.
+* May be able to reduce provisioned read capacity on your table and save money on your AWS bill.
+
+#### Not Suitable For
+* required strongly consistent reads.
+* applications whch are mainly write-intensive
+* do not perform many read operations.
+* do not require microsecond response times.
+
+## Time-To-Live(TTL)
