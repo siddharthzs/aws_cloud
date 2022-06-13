@@ -58,3 +58,13 @@ A scan operation on a large table can use upthe provisioned throughput for a lar
 
 ### On-Demand Capcity
 DynamoDb instanly scales up and down based on the activity of your application.
+* Unknow workloads
+* Unpredictable application traffic
+* spiky, short-lived peaks.
+* A pay-per-use model is desired
+* It might be more difficult to predict the cost
+
+## DynamoDB Accelerator (DAX)
+It is a fully-managed, clustered in-memory cache for DynamoDB.
+Delivers up to a 10x read performance improvement. Microsecond performance for millions of requests per second.
+* DAX is write-thorugh caching service.
