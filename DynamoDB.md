@@ -48,3 +48,13 @@ A scan operation on a large table can use upthe provisioned throughput for a lar
 ### Provisioned Throughput(measured in capacity units)
 #### Read Capacity Units
 1 x Read capacity unit = 1 x strongly consistent read of 4kb per second.
+                       = 2 x eventually consistent reads of 4kb per second(default).
+#### Write Capactiy Units
+1 x write capcity unit = 1 x 1KB writes per second.
+* Read and write capcity requirements can be forecasted.
+* Predictable application traffic.
+* Application traffic is consistent or increases gradually.
+* You have more control over the cost.
+
+### On-Demand Capcity
+DynamoDb instanly scales up and down based on the activity of your application.
