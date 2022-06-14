@@ -88,3 +88,13 @@ Defines an expiry time for your data. Expired items marked for deletion.
 * It is time ordered sequence of item level modifications (insert, update, delete)
 * Stored in Logs, encrypted at rest and stored for 24 hours.
 * Use for Audit, Archiving or Replacing Transaction
+* Accessed using a dedicated endpoint.
+* By default, the primary key is recorded.
+* Images, before, and after images can be captured.
+* Audit or archive transactions, trigger an event based on a particular transaction, or replicate data across multiple tables.
+
+
+## Provisioned Throughput Exceeded
+Your request rate is too high for the read/write capcity provisioned on your DynamoDB table.
+* Using AWS SDK, it will automaticlly retry the requetss unitl successful.
+* Reduce your request frequency. Use exponential backoff.
