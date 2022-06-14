@@ -78,3 +78,13 @@ Delivers up to a 10x read performance improvement. Microsecond performance for m
 * do not require microsecond response times.
 
 ## Time-To-Live(TTL)
+Defines an expiry time for your data. Expired items marked for deletion.
+* Reduces the cost of your table by automatically removing data which is no longer relevant.
+* Great for removing irrelevent or old data.
+
+
+
+## DynamoBD Streams
+* It is time ordered sequence of item level modifications (insert, update, delete)
+* Stored in Logs, encrypted at rest and stored for 24 hours.
+* Use for Audit, Archiving or Replacing Transaction
