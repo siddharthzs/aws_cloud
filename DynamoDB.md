@@ -98,3 +98,11 @@ Defines an expiry time for your data. Expired items marked for deletion.
 Your request rate is too high for the read/write capcity provisioned on your DynamoDB table.
 * Using AWS SDK, it will automaticlly retry the requetss unitl successful.
 * Reduce your request frequency. Use exponential backoff.
+
+
+
+# Exams Tips
+* Fine-Granied Access Control with IAM.
+* IAM condition parameter dynamodb:LeadingKeys allows users to access only the items where the partition key value matches their User_ID.
+* Secondary Indexers: Enables fast queries data columns
+* Give you a different view of your data based on 
