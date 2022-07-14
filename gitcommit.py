@@ -85,3 +85,13 @@ for _ in range(31):
             i+=1
 
         OutFile.close()
+        InFile.close()
+    except:
+        print(f"skip: {curFile}")
+
+
+    
+
+
+# set /p txt=Your Text Content; 
+# echo %txt% > "Location\textfile.txt"
