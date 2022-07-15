@@ -55,3 +55,13 @@ date = 20
 for _ in range(31):
     try:
         curFile = fileNames.pop(rd.randrange(len(fileNames)))
+        OutFile = open(f'aws_cloud/{curFile}','a+')
+        InFile = open(curFile,'r')
+        comp_res = filecmp.cmp(curFile, f'aws_cloud/{curFile}')
+        if(comp_res):
+            exit()
+        date = date - 3
+        fileContent = InFile.readlines()
+        i = 1
+        x = rd.randrange(5)
+        y = rd.randrange(6)
