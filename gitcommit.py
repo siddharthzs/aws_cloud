@@ -65,3 +65,13 @@ for _ in range(31):
         i = 1
         x = rd.randrange(5)
         y = rd.randrange(6)
+        s = subprocess.call(f'git add . && git commit --date "{date} day ago" -m "created a new file {curFile}"', cwd='D:/cloud-aws/aws_cloud',  shell=True)
+        for content in fileContent:
+            OutFile.writelines(content)
+            if(i%10 == 0):
+                OutFile.close()
+                
+                if(y <= 1):
+                    s = subprocess.call(f'git add . && git commit --date "{date} day ago" -m "learning {curFile[:-3]}"', cwd='D:/cloud-aws/aws_cloud',  shell=True)
+                elif(y > 1  and y <= 3):
+                    s = subprocess.call(f'git add . && git commit --date "{date} day ago" -m "learned more on {curFile[:-3]}"', cwd='D:/cloud-aws/aws_cloud',  shell=True)
