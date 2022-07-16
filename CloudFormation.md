@@ -184,3 +184,7 @@ Properties:
 * The Transform section specifies one or more macros that AWS CloudFormation uses to process your template. The Transform section builds on the simple, declarative language of AWS CloudFormation with a powerful macro system. The declaration Transform: AWS::Serverless-2016-10-31 is required for AWS SAM template files.
 
 * Create operations set to "Preserve successfully provisioned resources" preserves the state of successful resources, while failed resources will stay in a failed state until the next update operation is performed. Stack failure options.
+
+Specifying the disable-rollback option or on-failure DO_NOTHING enumeration during a create-stack operation will preserve successfully provisioned resources during a stack create operation. Stack failure options.
+
+* Elastic Beanstalk supports the deployment of web applications as Docker containers. Each time you upload a new version of your application with the Elastic Beanstalk console or the EB CLI, Elastic Beanstalk creates an application version. When using the console you can choose to upload and deploy your code in a single step. Elastic Beanstalk will manage the previous version of your code so you can revert back to it if necessary.
