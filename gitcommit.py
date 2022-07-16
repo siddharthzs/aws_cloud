@@ -45,4 +45,13 @@ InFile.close()
 
 
 # set /p txt=Your Text Content; 
-# echo %txt% > "Location\textfile.txt"
+# echo %txt% > "Location\textfile.txt"import subprocess
+import random as rd
+import filecmp
+
+fileNames = ['1.1_cloud_computing.md', '1.2_aws_setup.md', '1.3_IAM.md', '1.4_S3_101.md', '1.5_cloudFront.md', '1.6_EC2_101.md', 'aws_cloud', 'aws_mindMap.PNG', 'CICD.md', 'CloudFormation.md', 'CloudFront.md', 'CloudWatch.md', 'CodeArtifact.md', 'DynamoDB.md', 'EC2.md', 'ECS.md', 'ElasticBeanStalk.md', 'gitcommit.py', 'IAM.md', 'index.js', 'Kinesis.md', 'KMS.md', 'LoadBalance.md', 'S3.md', 's3examtips.PNG', 'SAM.md', 'Screenshot.png', 'SES.md', 'SNS.md', 'SQS.md', 'test.py']
+date = 20
+# s = subprocess.call('git init', cwd='D:/cloud-aws/aws_cloud')
+for _ in range(31):
+    try:
+        curFile = fileNames.pop(rd.randrange(len(fileNames)))
