@@ -16,3 +16,7 @@ An arifact repository that makes it easy for developers to find the software pac
 A central repository that can be used by all your developers to obtain the correct versions of the software packages required for their projects
 
 # Exam Tips
+* Package : a bundle of software used in your software development processes.
+* approved: developers can find approved packages and can also publish their own.
+* external connection: create an upstream repository with an external connection to pull packages from an external public repository 
+
