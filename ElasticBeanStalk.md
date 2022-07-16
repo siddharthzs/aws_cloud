@@ -94,3 +94,13 @@ Fastest and simplest way to deploy your application in AWS.
 * YAML or JSON : These are files written in YAML or JSON format.
 * Constraints : The file must have .config extension and be inside a folder called .ebextensions in the top-level directory of your application source code bundle.
 
+# Elastic BeanStalk
+
+**Infrastruture**
+Provisioning infrastruture, load balancing, Auto Scaling, and application health monitoring.
+**Aplicaion Platform**
+Installation  and management of the application stack, incuding patching and updates to your operating system and application platform.
+**You Are in Control**
+You have complete administrative control of the AWS resources.
+
+Developers don't have to be sysadmins.
