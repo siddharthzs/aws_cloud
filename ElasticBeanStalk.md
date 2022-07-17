@@ -134,3 +134,13 @@ Create Procfile in root directory. Format: <proces_name> : <commnad>
 * **.platform/hooks/prebuild** : Files that you want Elastic BeanStalk to run before it builds, sets up, and configures the application and web server.
 * **.platform/hooks/predeploy** : Files that you want to run afer it set up and configures the application and web server but before it deploys them to the final runtime location.
 * **.platform/hooks/postdeploys** : Files that run after Elastic Beanstalk deploys the application.
+
+
+## Integrating RDS With Elastic Beanstalk
+Elastic BeanStalk supports two ways of integrating an RDS database with your Beanstalk environment. 
+
+Option1: RDS Inside the Elastic BeanStalk
+* Launch the RDS instance from within the Elastic BeanStalk
+* If you terminate the environment, the database will also be terminated.
+* It is a good option for Deve and Test deployments, not so good for Prod.
+
