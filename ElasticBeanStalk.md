@@ -154,3 +154,13 @@ Option2: Launch RDS Outside of Elastic BeanStalk
 ## Migrating Applications to Elatic BeanStalk
 
 1) Windows Web Application Migration Assistant 
+* Enables you to migrate .NET application, or entire website from windows servers in your data center, to Elastic BeanStalk in AWS.
+* Open Source
+
+## Deploy Docker Container using Elatic BeanStalk
+Single Docker Container: you can either run a single docker container on an EC2 instance provisoned by Elastic Beanstalk
+Multiple Docker Container : Use Elastic BeanStalk to build an ECS cluster and deploy multiple docker container on each instance.
+* Can deploy multiple Docker instances to an ECS cluster.
+
+
+# Exam Tips
