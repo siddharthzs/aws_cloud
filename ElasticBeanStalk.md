@@ -164,3 +164,9 @@ Multiple Docker Container : Use Elastic BeanStalk to build an ECS cluster and de
 
 
 # Exam Tips
+* EC2 : When using Elastic BeanStalk, you can deploy your Docker constainer to a single EC2 instance.
+* ECS Cluster: You can also deploy multiple Docker instance to an ECS cluster.
+* Deploying Docker: To deploy a Docker application just upload your code bundle to Elasitc BeanStalk.
+* Upgrading : To upgrade your application to a new version, its one easy step in the console to upload and deploy your new version.
+* Local Machine or S3 : Source code can be uploaded directly from your local machine or from an S3 bucket.
+* CodeCommit : If you are using the Elastic BeanStalk CLI, you can also store your source code in CodeCommit.
