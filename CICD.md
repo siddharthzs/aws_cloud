@@ -72,3 +72,13 @@ A fully managed CI/CD Service. Orchestrates Build,Test andDeployment.
 * Continous Deployment : CodePipeline
 
 https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/practicing-continuous-integration-continuous-delivery.pdf
+# CI/CD
+Continous Integration, Continous Delivery / Deployment.
+
+* Software Development Best Practice
+* Make Small Changes & Automate Everything!
+Small, incremental code changes. Automate as much as possible e.g. code integration, build, test and deployment.
+Continous Integration Workflow
+* Shared Code Repository
+* Automated Build
+* Automated Test
