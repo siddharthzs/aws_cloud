@@ -102,3 +102,13 @@ Quickly release new features. Avoid downtime during deployments.
 * AppSpec File: configuration file defines the parameters to be used during a CodeDeploy deployment. For EC2 and on-premises systems, YAML only. For Lambda YAML and JSON suppored. File structure depends on wheather you are deploying to Lambda or EC2.
 File Structure: 
     version = reservered for future use. currently the allowed value is 0.0
+    files = location of any application files that need to be copied and where they should be copied to.
+    OS = The Operating System version you are using, e.g. linux, windows.
+    Hooks = Lifecycle event hooks. Scripts which need to run at set points in the deployment lifecycle. Hooks have a very specific run order.
+
+```
+**LifeCycle event Hooks**
+Lifecycle event Hooks are run in a specific order known as the Run Order.
+
+Phase1: De-register instaces from a Load Balancer.
+Phase2: The realnuts & bolts of the application deployment.
