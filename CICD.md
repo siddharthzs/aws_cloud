@@ -92,3 +92,13 @@ Source control services enabling teams to collaborate on code, html pages, scrip
 ### CodeBuild
 Compiles Source code, runs tests and produces packages that are ready to deploy.
 
+### CodeDeploy
+Automates code deployments to any instance, including EC2, Lambda and on-premises.
+Quickly release new features. Avoid downtime during deployments. 
+
+* In-Place Deployment (Rolling Update): The application is stopped on each instance and the new release is installed. Lambda is not supported. Capacity is reduced during the deploymen.
+* Blue/Green : New instances are provisioned and the new realese is installed on the new instance. Blue represents the active deployment, green is the new release. Green instances can be created ahead of time. You pay for 2 enivronments until you terminate the old servers.
+
+* AppSpec File: configuration file defines the parameters to be used during a CodeDeploy deployment. For EC2 and on-premises systems, YAML only. For Lambda YAML and JSON suppored. File structure depends on wheather you are deploying to Lambda or EC2.
+File Structure: 
+    version = reservered for future use. currently the allowed value is 0.0
