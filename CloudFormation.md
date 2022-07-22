@@ -174,3 +174,13 @@ Properties:
 * Nested Stacks allows to re-use your cloudformation code so you don't need to copy/paste every time. Stack Resource Type , reference it in the Resource section of any CloudFormation template using the Stack resource type.
 
 * Infrastructure As Code: CloudFormation allows you to manage, configure, and provision AWS infrastruture as YAML or JSON code.
+* Parameters: Allows you to input custom values, like the name of an EC2 SSH key pair.
+* Conditions: Allows you to provision resources according to the environment.
+* Transform: Reference code located in S3, e.g., reusable snippets of CloudFormation code and to specify the use of the Serverless Application Model.
+* Mappings: Allows you to create custom mappings like Region: AMI.
+* Resources: This section is mandaotry and describes the AWS resources that CloudFormation will create.
+
+
+* The Transform section specifies one or more macros that AWS CloudFormation uses to process your template. The Transform section builds on the simple, declarative language of AWS CloudFormation with a powerful macro system. The declaration Transform: AWS::Serverless-2016-10-31 is required for AWS SAM template files.
+
+* Create operations set to "Preserve successfully provisioned resources" preserves the state of successful resources, while failed resources will stay in a failed state until the next update operation is performed. Stack failure options.
