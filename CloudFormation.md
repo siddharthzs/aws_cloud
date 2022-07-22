@@ -164,3 +164,13 @@ Properties:
         "Export" : {"Name": {"Fn::Sub": "${AWS::StackName}-SubnetID"}}
     }
 }
+```
+* We Import Values
+```
+"Fn::ImportValue":{
+    "Fn::Sub": "${NetworkStackParameter}-SubnetID"
+}
+```
+* Nested Stacks allows to re-use your cloudformation code so you don't need to copy/paste every time. Stack Resource Type , reference it in the Resource section of any CloudFormation template using the Stack resource type.
+
+* Infrastructure As Code: CloudFormation allows you to manage, configure, and provision AWS infrastruture as YAML or JSON code.
