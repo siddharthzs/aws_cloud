@@ -122,3 +122,13 @@ Phase3: Re-register instances with the Load Balancer.
 * ApplicationStop: Gracefuly stop the application.
 * DownloadBundle : CodeDeploy agent copies the application revision files to a temporary location
 * BeforeInstall: Pre-installation scripts, e.g. backing up the current version, decrypting files.
+* Install : copy application revision files to final location
+* AfterInstall : Post-install scripts, e.g. configuration, file permisions.
+* ApplicationStart: start any servies that were stopped during applicationStop.
+* ValidateService: Run tests to validate the service.
+
+* BeforeAllowTraffic : Tasks you want to run on instances before they are registered with the load balancer.
+* AllowTraffic: Register instances with a load balancer.
+* AfterAllowTraffic: Tasks you want to run on instances after they are registered with a Load Balancer.
+
+
