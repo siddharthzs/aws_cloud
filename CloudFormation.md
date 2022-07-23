@@ -134,3 +134,13 @@ The Resource section is Mandatory. The Transform section is used to reference ad
 
 ### Exporting CloudFormation Stack Values
 
+
+### CloudFormation Nested Stacks
+enables re-use of CloudFormation code for common use cases. eg: standard configuation for a load balancer, web server, or application server.
+Instead of copying out the code each time, create a standard template for each common use case and reference from within your CloudFormation template.
+```
+Resources:
+Type: AWS::CloudFormation::Stack
+Properties:
+    NotificationARNs:
+        - String
