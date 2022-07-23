@@ -144,3 +144,13 @@ Type: AWS::CloudFormation::Stack
 Properties:
     NotificationARNs:
         - String
+    Parameters:
+        AWS CloudFormation Stack Parameters
+      Tags:
+        - Resource Tag
+      TemplateUrl: http://s3.amazonaws.com/.../template.yml
+      TimeoutInMinutes: Integer
+
+
+```
+
