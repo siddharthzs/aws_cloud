@@ -154,3 +154,13 @@ Properties:
 
 ```
 
+### Exam Tips
+* We Export the Values 
+```
+"Outputs": {
+    "PublicSubnet" : {
+        "Description" : "aksdjf",
+        "Value" : { "Ref" : "PublicSubnet"},
+        "Export" : {"Name": {"Fn::Sub": "${AWS::StackName}-SubnetID"}}
+    }
+}
