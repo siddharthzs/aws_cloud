@@ -124,3 +124,13 @@ Resources: # the AWS resources you are deployment
     Outputs:
         InstancID:
             Description: THeinstace ID
+            Value: !Ref EC2Instace
+            ImageId: ami-aldskf39    
+
+```
+
+The Resource section is Mandatory. The Transform section is used to reference additional code stored in S3, allowing for code re-use.
+
+
+### Exporting CloudFormation Stack Values
+
