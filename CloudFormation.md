@@ -114,3 +114,13 @@ Transform: #include snippets of code outside the main template
 Resources: # the AWS resources you are deployment
     EC2Instace: 
         Type: AWS::EC2::Instance
+        Properties:
+        Outputs:
+    InstaceID:
+        Description: The Instace ID
+        Value: !Ref EC2Instance
+            InstanceType: t2.micro
+            ImageId: ami-a34l3skdjf1
+    Outputs:
+        InstancID:
+            Description: THeinstace ID
