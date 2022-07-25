@@ -94,3 +94,13 @@ Descript: "Create an EC2 instance"
 Metadata: 
     Instances:
         Description: "Web Server Instace"
+Parameters: 
+    EnvTpe:
+        Description: "environment type"
+        Type: String
+        AllowedValues: 
+            - prod
+            - test
+Conditions: 
+    CreateProdResources: !Equals [!Ref EnvType, prod]
+    Mappings:
