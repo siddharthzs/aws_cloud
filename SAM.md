@@ -8,3 +8,13 @@ SAM CLI. Use the SAM CLI to package your deployment code, upload it to S3, and d
 > sam package \
     -- template-file ./mytemplate.yml \ 
     -- output-template-file sam-template.yml \
+    -- s3-bucket s3-bucket-name
+
+> sam deploy \
+    -- template-file sam-template.yml \ 
+    -- stack-name mystack \
+    -- capabilites CAPABILITY_IAM
+
+
+
+## Exam Tips
