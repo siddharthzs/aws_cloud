@@ -18,3 +18,6 @@ SAM CLI. Use the SAM CLI to package your deployment code, upload it to S3, and d
 
 
 ## Exam Tips
+* define and provision serverless applications using CloudFormation
+* sam package: Packages your application and uploads to S3
+* sam deploy: deploys your serverless app using CloudFormation 
