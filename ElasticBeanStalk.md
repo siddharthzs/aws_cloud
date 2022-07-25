@@ -64,4 +64,13 @@ Option2: Launch RDS Outside of Elastic BeanStalk
 ## Deploy Docker Container using Elatic BeanStalk
 Single Docker Container: you can either run a single docker container on an EC2 instance provisoned by Elastic Beanstalk
 Multiple Docker Container : Use Elastic BeanStalk to build an ECS cluster and deploy multiple docker container on each instance.
-* Can deploy multiple Docker instances to an ECS cluster.
+* Can deploy multiple Docker instances to an ECS cluster.# Elastic BeanStalk
+
+**Infrastruture**
+Provisioning infrastruture, load balancing, Auto Scaling, and application health monitoring.
+**Aplicaion Platform**
+Installation  and management of the application stack, incuding patching and updates to your operating system and application platform.
+**You Are in Control**
+You have complete administrative control of the AWS resources.
+
+Developers don't have to be sysadmins.
