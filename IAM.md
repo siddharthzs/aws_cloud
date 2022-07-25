@@ -8,3 +8,13 @@ Identity and Access Management(IAM)
 
 ## Key Features of IAM
     * Centralized Control of your AWS account
+    * Shared access to your AWS account
+    * Granular Permissions
+    * Multi-factor authentication
+    * ability to provide temporary access for users, devices, and services nescessary
+    * a custom password rotation policy
+    * Integartion with many AWS services
+
+## Key Terminology for IAM
+    1) Users : end user
+    2) Groups : collection of users
