@@ -28,3 +28,13 @@ Identity and Access Management(IAM)
         1. via the console
         2. programmatically
         3. using a software development kit(sdk)
+    4) Your root account is the email address you used to set up your aws account. the root accoutn always has full administrator access. You should not give these account credentials to anyone. Insted, create a user for each individual within your orgranization. You should always secure this root account using multi-factor authentication.
+    5) A group is simply a place to store your users.
+    6) To set the permissions in a group, you need to apply a policy to that group.
+    policies consist of JSON
+
+
+
+## Web Identity Federation
+Simplifies authentication and authorization for web applications. 
+**Users Access to AWS Resources** : Users access AWS resources after successfully authenticating with a web-based identity provider like Facebook, Amazon or Google.
