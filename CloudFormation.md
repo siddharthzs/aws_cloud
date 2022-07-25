@@ -64,3 +64,13 @@ Resources: # the AWS resources you are deployment
 ```
 
 The Resource section is Mandatory. The Transform section is used to reference additional code stored in S3, allowing for code re-use.
+# CloudFormation
+Manage, configure, and provision your AWS infrastruture as Code.
+
+1) Resources are defined using CloudFormation template.
+2) CloudFormation interprets the template and makes the appropriate API calls to create the resources you have defined.
+3) supports YAML or JSON
+
+### CloudFormation Benefits
+* Consistent : Infrastruture is provisioned consistently, with fewer mistakes.
+* Quick and Efficient : Less time and effort than configuring things manually.
