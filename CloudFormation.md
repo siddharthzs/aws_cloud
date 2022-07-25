@@ -74,3 +74,13 @@ Manage, configure, and provision your AWS infrastruture as Code.
 ### CloudFormation Benefits
 * Consistent : Infrastruture is provisioned consistently, with fewer mistakes.
 * Quick and Efficient : Less time and effort than configuring things manually.
+* Version Control
+You can version control and peer review your templates.
+* Free to Use : you get charged for the aws resources you create using cloudformation.
+* Manage updates : can be used to manage updates and dependencies
+* RollingBack: YOu can roll back to a previous state and delete the entire stack as well.
+
+### Process
+Create Your Template
+Store in S3 bucket
+CloudFormation willread and make API calls to create
