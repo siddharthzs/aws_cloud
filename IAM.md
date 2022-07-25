@@ -18,3 +18,13 @@ Identity and Access Management(IAM)
 ## Key Terminology for IAM
     1) Users : end user
     2) Groups : collection of users
+    3) Roles : create roles and assign them
+    4) Policies : made up of documents, formatted in JSON and provide permisions for users, groups, and roles.
+
+## Exam Tips
+    1) IAM : Identity and Access Management
+    2) IAM is global : You do not specify a region when dealing with IAM. When you create a user or group, it is created globally.
+    3)  You can access the AWS platform in threee ways:
+        1. via the console
+        2. programmatically
+        3. using a software development kit(sdk)
