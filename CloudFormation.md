@@ -84,3 +84,13 @@ You can version control and peer review your templates.
 Create Your Template
 Store in S3 bucket
 CloudFormation willread and make API calls to create
+resulting set of resources that CloudFormation builds is called a Stack.
+
+
+CloudFormation Template Structure(YAML)
+```
+AWSTemplateFormatVersion: "2010-08-02"
+Descript: "Create an EC2 instance"
+Metadata: 
+    Instances:
+        Description: "Web Server Instace"
