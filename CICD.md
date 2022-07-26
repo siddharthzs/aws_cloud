@@ -142,3 +142,11 @@ A fully managed CI/CD Service. Orchestrates Build,Test andDeployment.
 
 ## Exam Tips
 * Continous Integation : CodeCommit (Source & version control)
+* Continous Delivery : CodeBuild and CodeDeploy (Automated Deployment and Build)
+* Continous Deployment : CodePipeline (Manages The WorkFlow)
+
+* **In-Place Deployment** : Capacity is reduced during the deployment. Lambda is not supported. Rolling back involves a re-deploy. Great when deploying the first time.
+* **Blue/Green Deployment**: No Capacity reduction. Green instances can be created ahead of time. Easy to switch between old and new. You pay for 2 envionmrnts until you terminate the old servers.
+
+
+https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/practicing-continuous-integration-continuous-delivery.pdf
