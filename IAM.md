@@ -48,3 +48,13 @@ Simplifies authentication and authorization for web applications.
 * Recommended for all mobile applicatoins that call AWS services.
 
 **Authenitcation with Amazon Cognito**
+Temporary Credentials, cognito broker between the app and facebook, amazon, or google to provide temporary credentials.
+Secure and Seamless, No need for the application to embed or store AWS credentials locally on the device.
+IAM Role, the temporary credentials map to an IAM role, allowing access to the required resources.
+```
+**User Pools** : User directories used to manage sign-up and sign-in functionality for mobile and web applications.
+**Sign-in** : Users can sign-in directly to the User Pool, or using Facebook, Amazon, or Google.
+**Identity Pools** : Identity Pools enable you to provide temporary AWS credentials. Enabling access to AWS services like S3 or DynamoDB.
+```
+
+**Cognito Push Synchronization**
