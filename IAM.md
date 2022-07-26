@@ -38,3 +38,13 @@ Identity and Access Management(IAM)
 ## Web Identity Federation
 Simplifies authentication and authorization for web applications. 
 **Users Access to AWS Resources** : Users access AWS resources after successfully authenticating with a web-based identity provider like Facebook, Amazon or Google.
+**Authentication**: Following successful authentication users receive an authentication code from the web ID provider. 
+**Authorization**: Users can trade this authentication code for temporary AWS security credentials, authorizing access to AWS resources.
+
+### Amazon Cognito (web ID federation)
+* provides web ID Federation, including sign-up and sign-in functionally for your applications and access for guest users.
+* Identity Broker, manages authenticaiton between your application and web ID providers, so you don't need to write any additional code.
+* Multiple Devices, Synchronizes user data for multiple devices.
+* Recommended for all mobile applicatoins that call AWS services.
+
+**Authenitcation with Amazon Cognito**
