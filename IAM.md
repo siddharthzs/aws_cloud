@@ -58,3 +58,13 @@ IAM Role, the temporary credentials map to an IAM role, allowing access to the r
 ```
 
 **Cognito Push Synchronization**
+* Cognioto tracks the association between user identity and the various different devices they sign-in from.
+* Cognito uses Push Synchronizaiton to push updates and synchronize user data across multiple devices.
+* Under the hood uses SNS notification to all the devices associated with a given user identity whenever data stored in the cloud changes.
+
+
+Correct. The preferred way to use web identity federation for mobile apps is to use Amazon Cognito. Reference: Using Amazon Cognito for mobile apps
+
+Correct. With Amazon Cognito identity pool, your users can obtain temporary AWS credentials to access AWS services, such as Amazon S3 and DynamoDB. Identity pools support anonymous guest users, as well as federation through third-party IdPs. Reference: Common Amazon Cognito Scenarios
+
+Correct. After a successful user pool authentication, your app will receive user pool tokens from Amazon Cognito. You can exchange them for temporary access to other AWS services with an identity pool.
