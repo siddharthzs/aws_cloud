@@ -28,3 +28,13 @@ What can CloudWatch Monitor?
 
 
 ### CloudWatch Concepts
+* **CloudWatch Metrics**: A metric is a variable to monitor. Metrics are uniquely defined by a name, a namespace, and zero or more dimensions.
+A namespace is a container for CloudWatch metrics. e.g. EC2 uses the AWS/EC2 namespace. Create your own namespace to publish custom metric data.
+You must specify a namespacce for each data point or value that you publish to CloudWatch. Metrics in different namespaces are isolateed from each other. Metrics from different applications are not aggregated into same statistics.
+
+* **CloudWatch Dimensions**: A dimension is like a filter.
+Name/Value Pair. Can be used to filter cloudwatch data. 
+InstanceId. Use the instanceid dimensions to search for metrics relating to a specific EC2 instance.
+Aggregate. Cloudwatch can aggregate data across dimensions for some services.
+
+
