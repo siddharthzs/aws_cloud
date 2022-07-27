@@ -88,3 +88,13 @@ Used to define user access permissions within AWS.
 ### STS AssumeRoleWithWebIdentity
 STS API : assume-role-with-web-identity is an api provided by STS (Security Token Service).
 Temporary Credentials: Returns temporary security credentials for users authenticated by a mobile or web application or using a web ID provider like Amazon, Feacbook, Google, etc.
+Web Applications: Regular web applications can use the assuem-role-with-web-identity API. For mobile applications, Cognito is recommended.
+
+
+### Cross Account Access
+Delegate access to resources in different AWS accounts that you own.
+Manage Resources in Other Accounts: Share resources in one account with users in a different account.
+IAM Role: Create a role in one account to allow access and grant permissions to users in a different account.
+
+
+
