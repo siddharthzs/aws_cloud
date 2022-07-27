@@ -38,3 +38,13 @@ InstanceId. Use the instanceid dimensions to search for metrics relating to a sp
 Aggregate. Cloudwatch can aggregate data across dimensions for some services.
 
 
+### CloudWatch vs CloudTrail
+**CloudTrail** : Records user activity in your AWS account. Cloudtrail records event reated to creation, modification, or deletion of resources ( such as IAM users, S3 buckets, and EC2 instances).
+By default, you can view the last 90 days of account activity.
+* Records API calls for you AWS account. 
+* Delivers log files containing API calls to an S3 bucket.
+* can be integrated with Cloudwatch logs.
+
+
+
+### Using CloudWatch Actions 
