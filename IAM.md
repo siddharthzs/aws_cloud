@@ -68,3 +68,13 @@ Correct. The preferred way to use web identity federation for mobile apps is to 
 Correct. With Amazon Cognito identity pool, your users can obtain temporary AWS credentials to access AWS services, such as Amazon S3 and DynamoDB. Identity pools support anonymous guest users, as well as federation through third-party IdPs. Reference: Common Amazon Cognito Scenarios
 
 Correct. After a successful user pool authentication, your app will receive user pool tokens from Amazon Cognito. You can exchange them for temporary access to other AWS services with an identity pool.
+
+
+
+**User Pools Vs Identity Pools**
+* User Pools: user directories used to manage sign-up and sign-in functionality for mobile and web applications.
+* Identity Pools : enables you to provide temporary AWS credentials. Enabling access to AWS services like S3 or dynamoDB.
+
+
+### Identity Access Management
+Used to define user access permissions within AWS.
