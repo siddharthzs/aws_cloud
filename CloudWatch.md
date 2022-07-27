@@ -18,3 +18,13 @@ What can CloudWatch Monitor?
 * By installing the cloudwatch agent on your Ec2 instance, you can collect operating system metrics and send them to CloudWatch.
 * Memory Usages, processes running on your instance, amount of free disk space, CPU idle time, etc.
 * By default EC2 sends metric data to cloudwatch in 5-minutes inervals.
+* For an additional charge you can enable detailed montioring that sends metircs at 1-minute intervals.
+* For custom metrics, the default is 1-minute intervals, and you can configure high resolution metrics that are sent at 1 second intervals.
+
+### CloudWatch Alarms
+* This can include ec2 cpu utilization, Elatic Load Balancer latency, or even the charges on your AWS bit.
+* You can set appropriate thresholds to trigger the alarms and actions to be taken if an alarm state is reached.
+* You can set an alarm that sends you a notification or execution an Auto Scaling policy if CPU utlization exceeds 90% on your EC2 instace for more than 5 minutes.
+
+
+### CloudWatch Concepts
