@@ -78,3 +78,13 @@ Correct. After a successful user pool authentication, your app will receive user
 
 ### Identity Access Management
 Used to define user access permissions within AWS.
+**AWS Managed Policies** : IAM policy which is created and administered by AWS. across account scope.
+**Customer Managed Policies** : poclicy that you create and aadminister inside your own AWS account. with in account scope.
+**Inline Policies**: 1:1 relationship between entity and the policy. when you delete the user, group, or role the inline policy will also be deleted.
+
+
+
+
+### STS AssumeRoleWithWebIdentity
+STS API : assume-role-with-web-identity is an api provided by STS (Security Token Service).
+Temporary Credentials: Returns temporary security credentials for users authenticated by a mobile or web application or using a web ID provider like Amazon, Feacbook, Google, etc.
