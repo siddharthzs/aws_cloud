@@ -68,3 +68,13 @@ aws cloudwatch put-metric-data \
 --value 25 \
 --timestamp 2022-01-10T12:00:00.000Z
 ```
+
+**PutMetricAlarm**: Creates an alarm asscociated with a metric to alert you if a threshold has been reached.
+```
+aws cloudwatch put-metric-alarm
+-- alarm-name
+--alarm-description
+--metric-name
+--namespace
+--statistic Average
+--period
