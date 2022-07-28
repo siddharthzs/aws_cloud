@@ -58,3 +58,13 @@ By default, you can view the last 90 days of account activity.
 Supports a long list of different actions.
 These actions allow you to publish, monitor, and alert on a variety of metrics.
 These are particularly powerful when creating custom metrics for monitoring and alterting for your applications.
+
+
+**PutMetricData**: Publishes metric data points to CloudWatch. You can define the name of the metric, the namespace to publish to, the value to publish and a timestamp for the data point.
+```
+aws cloudwatch put-metric-data \
+--metric-name PageViewCount \
+--namespace MyService \
+--value 25 \
+--timestamp 2022-01-10T12:00:00.000Z
+```
