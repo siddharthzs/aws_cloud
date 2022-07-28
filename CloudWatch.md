@@ -78,3 +78,12 @@ aws cloudwatch put-metric-alarm
 --namespace
 --statistic Average
 --period
+--threshod
+--comparison-operator
+--evaluation-period 1
+```
+
+
+
+
+
