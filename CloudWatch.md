@@ -48,3 +48,13 @@ By default, you can view the last 90 days of account activity.
 
 
 ### Using CloudWatch Actions 
+* What are CloudWatch Actions?
+* PutMetricData
+* PutMetricAlarm
+* Example
+
+
+### CloudWatch API
+Supports a long list of different actions.
+These actions allow you to publish, monitor, and alert on a variety of metrics.
+These are particularly powerful when creating custom metrics for monitoring and alterting for your applications.
